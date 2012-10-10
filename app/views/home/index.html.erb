@@ -1,8 +1,39 @@
-<%= form_tag features_path, remote: true, method: :get do %>
-  <p>
-    <%= text_field_tag :query, params[:query] %>
-    <%= submit_tag "Search", name: nil %>
-  </p>
-<% end %>
-<div id="feature_results">
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">				   	
+			<div class="nav-collapse collapse">
+			<a class="brand" href=""><img src="assets/Inspector.png"></a>									
+			</div>
+				<%= form_tag features_path, :class => "navbar-form", remote: true, method: :get do %>    
+					<img class="prepender pull-left" src="assets/investigate.png"></a>
+					<%= text_field_tag :query, params[:query], :class =>  'input-xxlarge',  
+						:placeholder => 'Examine features and scenarios for clues' %>
+					<%= submit_tag "Examine", :class => 'btn btn-medium btn-primary' %>
+				<% end %>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+
+
+	<div class="row hero-pic">		
+			<img src="assets/Inspector-big.png"></a>	
+			<h2> A BDD mystery </h2>	
+					<img src="assets/noir.jpg"></a>	
+    
+    	
+	</div>
+
+	<div class="row">
+		<div class="span2">
+		
+    	</div>    
+		<div class="span8">			
+  	  		<div id="feature_results">
+  	  		</div>
+		</div> 
+	</div>
+
 </div>

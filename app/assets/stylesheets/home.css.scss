@@ -1,3 +1,37 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "twitter/bootstrap";
+@import "twitter/bootstrap/responsive";
+
+.navbar {
+	
+	.container {
+		height: 75px;
+	}
+	
+	.btn-primary {	
+		margin-top: 25px;	
+	}
+	
+	.input-xxlarge {	
+		margin-top: 25px;
+	}
+
+	.prepender {
+		margin-top: 15px;
+		margin-right: 5px;
+		margin-left: 15px;
+	}
+
+	
+}
+
+.hero-pic {
+    text-align: center;
+}
+
+body {
+	padding-top: $navbarHeight + 60px;
+    padding-bottom: 40px;
+}
+
+

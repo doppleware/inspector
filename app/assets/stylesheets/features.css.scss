@@ -1,3 +1,49 @@
 // Place all the styles related to the features controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.feature_results {
+  background-color: #f5f5f5;  
+  margin: 0 auto;
+  padding: 0;
+}
+
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  float: left;  
+  margin-left: 40px;
+  width: 2px;
+  height: 100%;  
+  position: absolute;
+  
+}
+
+.feature-area {
+	position: relative
+}
+
+.feature-list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;  
+  font-family: courier, monospace;
+  border: 1px solid #dedede;
+
+  li {
+	  list-style: none;
+	  border-bottom: 1px dotted #ccc;
+	  text-indent: 25px;
+	  height: auto;
+	  padding: 10px;
+	  text-transform: capitalize;
+
+	  &:hover {
+  		background-color: #f0f0f0;
+  		-webkit-transition: all 0.2s;
+  		-moz-transition:    all 0.2s;
+  		-ms-transition:     all 0.2s;
+  		-o-transition:      all 0.2s;
+	 }
+  }
+}
+

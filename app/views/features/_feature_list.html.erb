@@ -1,19 +1,12 @@
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
-<% @features.each do |feature| %>
-  <tr>
-    <td><%= feature.name %></td>
-    <td><%= feature.description %></td>
-    <td><%= link_to 'Show', feature %></td>
-    <td><%= link_to 'Edit', edit_feature_path(feature) %></td>
-    <td><%= link_to 'Destroy', feature, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
+<h3> Findings: </h3>
+<div class="feature-area">
+<div class="lines"/>
+<ul class="feature-list">
+<% @features.each do |feature| %>  
+    <li>
+      <a href="<%= feature_path(feature) %>"> <%= feature.name %> </a>
+    </li>
 <% end %>
-</table>
+</ul>
+</div>
