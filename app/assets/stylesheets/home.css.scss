@@ -3,7 +3,7 @@
 	.prepender {		
 		margin-right: 5px;
 		margin-left: 15px;
-		margin-top: 0px;		
+		margin-top: -5px;		
 	}
 
 	.navbar-form {		
@@ -22,10 +22,14 @@
 		left: -100px;
 		text-align: left;
 	}
+
+	.dropdown-toggle {
+		display: block;
+	}
 }
 
 .hero-pic {
-    text-align: center;
+    text-align: center;    
 }
 
 body {

@@ -2,7 +2,7 @@ class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
   def index
-    @features = Feature.all
+    @features = Feature.text_search(params[:query])
 
     respond_to do |format|
       format.html # index.html.erb

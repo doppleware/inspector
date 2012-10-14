@@ -1,12 +1,12 @@
 
 <h3> Findings: </h3>
 <div class="feature-area">
-<div class="lines"/>
-<ul class="feature-list">
-<% @features.each do |feature| %>  
-    <li>
-      <a href="<%= feature_path(feature) %>"> <%= feature.name %> </a>
-    </li>
-<% end %>
-</ul>
+	<div class="lines"/>
+	<ul class="feature-list">
+		<% @features.each do |feature| %>  
+		<li>
+			<a href="<%= feature_path(feature) %>"> <%= feature.name %> </a>
+		</li>
+		<% end %>
+	</ul>
 </div>
