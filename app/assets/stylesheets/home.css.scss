@@ -1,25 +1,27 @@
-
-.navbar {
+.navbar {	
 	
-	.container {
-		height: 75px;
-	}
-	
-	.btn-primary {	
-		margin-top: 25px;	
-	}
-	
-	.input-xxlarge {	
-		margin-top: 25px;
-	}
-
-	.prepender {
-		margin-top: 15px;
+	.prepender {		
 		margin-right: 5px;
 		margin-left: 15px;
+		margin-top: 0px;		
 	}
 
-	
+	.navbar-form {		
+		margin-top: 20px;
+	}
+
+	.btn-primary {
+		margin-left: 10px;
+	}
+
+	.caret {
+	   background-color: transparent;
+	}
+
+	.dropdown-menu {
+		left: -100px;
+		text-align: left;
+	}
 }
 
 .hero-pic {
@@ -30,5 +32,3 @@ body {
 	padding-top: $navbarHeight + 60px;
     padding-bottom: 40px;
 }
-
-

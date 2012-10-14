@@ -1,19 +1,4 @@
-<div class="navbar navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container">				   	
-			<div class="nav-collapse collapse">
-				<a class="brand" href=""><img src="assets/Inspector.png"></a>									
-			</div>
-			<%= form_tag features_path, :class => "navbar-form", :id => "features-search-form", remote: true, method: :get do %>    
-			<img class="prepender pull-left" src="assets/investigate.png"></a>
-			<%= text_field_tag :query, params[:query], :id => 'features-search-field',:class =>  'input-xxlarge',  
-			:placeholder => 'Examine features and scenarios for clues' %>
-			<%= submit_tag "Examine", :class => 'btn btn-medium btn-primary' %>
-			<% end %>
-			
-		</div>
-	</div>
-</div>
+<%= render "navigation_bar" %>
 
 <div class="container">
 	<div class="row hero-pic" id="investigator-hero-unit">		
