@@ -7,7 +7,8 @@ gem 'rails', '3.2.3'
 
 gem 'pg'
 gem 'pg_search'
-
+gem 'acts-as-taggable-on'
+gem 'will_paginate'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -25,6 +26,7 @@ group :development, :test do
   gem "rspec-rails", "~> 2.0"
   gem "jasminerice"
 end
+
 
 gem 'jquery-rails'
 

@@ -5,7 +5,10 @@
 	<ul class="feature-list">
 		<% @features.each do |feature| %>  
 		<li>
-			<a href="<%= feature_path(feature) %>"> <%= feature.name %> </a>
+			<a class="feature-link" href="<%= feature_path(feature) %>"> 
+				<p> <%= feature.name %> </p>
+				<p class="feature-tags"> <%= raw feature.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
+			</a>
 		</li>
 		<% end %>
 	</ul>

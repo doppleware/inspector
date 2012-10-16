@@ -1,6 +1,6 @@
 Speckles::Application.routes.draw do
   resources :features
-
+  get 'tags/:tag', to: 'features#index', as: :tag  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -22,7 +22,6 @@ Speckles::Application.routes.draw do
   #       post 'toggle'
   #     end
   #
-  #     collection do
   #       get 'sold'
   #     end
   #   end

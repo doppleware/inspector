@@ -2,7 +2,10 @@ class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
   def index
-    @features = Feature.text_search(params[:query])
+
+    if params[:query] do 
+      @features = Feature.text_search(params[:query])
+    end 
 
     respond_to do |format|
       format.html # index.html.erb

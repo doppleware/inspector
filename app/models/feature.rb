@@ -1,7 +1,9 @@
 class Feature < ActiveRecord::Base
-  attr_accessible :description, :name
+  attr_accessible :description, :name, :tag_list
+  acts_as_taggable
 
-  include PgSearch
+  include PgSearch  
+
   pg_search_scope :search, against: [:name, :description],
    using: {tsearch: {dictionary: "english"}}
 

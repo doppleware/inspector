@@ -45,9 +45,16 @@
   		-o-transition:      all 0.2s;
 	 }
 
-   a{
+  }
+
+  .feature-link {
      text-decoration: none;
      display: block;
-   }
   }
+
+  .feature-tags a {
+      font-size: 12px;
+  }
+
+
 }

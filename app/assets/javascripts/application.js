@@ -15,3 +15,8 @@
 //= require_tree .
 //= require twitter/bootstrap
 var Inspector = new Object();
+
+$(window).bind("popstate", function() {  	
+  $.getScript(location.href);    
+  
+});
