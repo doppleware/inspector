@@ -3,7 +3,7 @@ class FeaturesController < ApplicationController
   # GET /features.json
   def index
 
-    if params[:query] do 
+    unless params[:query].to_s.empty?
       @features = Feature.text_search(params[:query])
     end 
 

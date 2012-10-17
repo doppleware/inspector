@@ -14,9 +14,5 @@
 //= require jquery_ujs
 //= require_tree .
 //= require twitter/bootstrap
+//= require purl
 var Inspector = new Object();
-
-$(window).bind("popstate", function() {  	
-  $.getScript(location.href);    
-  
-});

@@ -1,15 +1,17 @@
 
+<% if @features %>
 <h3> Findings: </h3>
 <div class="feature-area">
-	<div class="lines"/>
+	<div class="lines"/>	
 	<ul class="feature-list">
 		<% @features.each do |feature| %>  
 		<li>
 			<a class="feature-link" href="<%= feature_path(feature) %>"> 
-				<p> <%= feature.name %> </p>
-				<p class="feature-tags"> <%= raw feature.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
+				<%= feature.name %>				
 			</a>
+			<p class="feature-tags"> <%= raw feature.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
 		</li>
 		<% end %>
-	</ul>
+	</ul>	
 </div>
+<% end %>
