@@ -1,60 +1,104 @@
 // Place all the styles related to the features controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.highlight {
+  position: relative;
+  padding-left: -5px;
+  overflow: visible;
+  font-weight: bold;
+  height: 100%;
+}
+
+.highlight_yellow {
+  position: relative;
+  padding-left: -5px;
+  overflow: visible;  
+  height: 100%;
+  background-image: url('highlight_yellow.png');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: 0px 0px;
+  overflow: visible;
+}
+
+.underline_red {
+  position: relative;
+  padding-left: -5px;
+  overflow: visible;  
+  height: 100%;
+  background-image: url('underline_red.png');
+  background-repeat: no-repeat;
+  background-size: 100%;  
+  background-position: bottom;
+  overflow: visible;
+}
+
 .feature_results {
   background-color: #f5f5f5;  
   margin: 0 auto;
   padding: 0;
 }
 
-.lines {
-  border-left: 1px solid #ffaa9f;
-  border-right: 1px solid #ffaa9f;
-  float: left;  
-  margin-left: 40px;
-  width: 2px;
-  height: 100%;  
-  position: absolute;
-  
-}
-
 .feature-area {
 	position: relative;
+}
+
+.feature-link {
+  text-decoration: none;
+  display: block;
+  color: $black;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.feature-tags a {
+  font-size: 12px;   
+  float: right;
 }
 
 .feature-list {
   color: #555;
   font-size: 22px;
-  padding: 0 !important;  
+  padding: 0 !important;
   font-family: courier, monospace;
   border: 1px solid #dedede;
+  position: relative;
+  box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);   
 
   li {
-	  list-style: none;
-	  border-bottom: 1px dotted #ccc;
-	  text-indent: 25px;
-	  height: auto;
-	  padding: 10px;
-	  text-transform: capitalize;
+    list-style: none;
+    border-bottom: 1px dotted #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 10px 5px 10px 50px;
+    text-transform: capitalize;
 
-	  &:hover {
-  		background-color: #f0f0f0;
-  		-webkit-transition: all 0.2s;
-  		-moz-transition:    all 0.2s;
-  		-ms-transition:     all 0.2s;
-  		-o-transition:      all 0.2s;
-	 }
+    &:hover {
+      background-color: #eee;
+      -webkit-transition: 0.2s;
+      -moz-transition:    0.2s;
+      -ms-transition:     0.2s;
+      -o-transition:      0.2s;
+    }
 
+    &:last-child {
+      border-bottom: 0;
+    }
   }
 
-  .feature-link {
-     text-decoration: none;
-     display: block;
+  &:before {
+    content: "";
+    border-left: 1px solid #ffaa9f;
+    border-right: 1px solid #ffaa9f;
+    width: 2px;
+    position: absolute;
+    height: 100%;
+    left: 25px;
   }
-
-  .feature-tags a {
-      font-size: 12px;   
-  }
-
 
 }
+

@@ -12,7 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require application
 //= require_tree .
 //= require twitter/bootstrap
 //= require purl
-var Inspector = new Object();
+var inspector = new Object();
