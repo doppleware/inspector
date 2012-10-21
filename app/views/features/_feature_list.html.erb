@@ -3,11 +3,11 @@
 <div class="feature-area">
 	<div class="lines"/>	
 	<ul class="feature-list">
-		<li>
+		<li class="features-header">
 			<h3><span class="underline_red"> Findings: </span></h3>
 		</li>
 		<% @features.each do |feature| %>  
-		<li>
+		<li class="features-item">
 			<a class="feature-link" href="<%= feature_path(feature) %>"> 
 				<%= feature.name %>				
 			</a>
@@ -16,7 +16,7 @@
 					<a class="scenario-link" href="<%= feature_path(feature) %>">  
 						<span class="highlight_yellow">Should lock all non-shared resources</span>
 					</a>
-				</li>
+				</li>	
 				<li> 
 					<a class="scenario-link" href="<%= feature_path(feature) %>"> 
 						Should not lock shared resources
@@ -25,7 +25,7 @@
 			</ul>
 			<p class="feature-tags"> <%= raw feature.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
 		</li>
-		<li>
+		<li class="features-item">
 			<a class="feature-link" href="<%= feature_path(feature) %>"> 
 				<%= feature.name %>				
 			</a>

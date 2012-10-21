@@ -1,39 +1,6 @@
 // Place all the styles related to the features controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.highlight {
-  position: relative;
-  padding-left: -5px;
-  overflow: visible;
-  font-weight: bold;
-  height: 100%;
-}
-
-.highlight_yellow {
-  position: relative;
-  padding-left: -5px;
-  overflow: visible;  
-  height: 100%;
-  background-image: url('highlight_yellow.png');
-  background-repeat: no-repeat;
-  background-size: 110%;
-  background-position: 0px 0px;
-  overflow: visible;
-}
-
-.underline_red {
-  position: relative;
-  padding-left: -5px;
-  overflow: visible;  
-  height: 100%;
-  background-image: url('underline_red.png');
-  background-repeat: no-repeat;
-  background-size: 100%;  
-  background-position: bottom;
-  overflow: visible;
-}
-
 .feature_results {
   background-color: #f5f5f5;  
   margin: 0 auto;
@@ -57,7 +24,7 @@
 .feature-tags a {
   font-size: 12px;   
   float: right;
-}
+} 
 
 .feature-list {
   color: #555;
@@ -65,8 +32,11 @@
   padding: 0 !important;
   font-family: courier, monospace;
   border: 1px solid #dedede;
-  position: relative;
-  box-shadow: 0 5px 10px -5px rgba(0,0,0,0.5);   
+  position: relative;      
+  padding: 50px;  
+  margin: 0 auto;  
+  background-color: #fff;  
+  @include box-shadow(0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1));
 
   li {
     list-style: none;
@@ -79,10 +49,7 @@
 
     &:hover {
       background-color: #eee;
-      -webkit-transition: 0.2s;
-      -moz-transition:    0.2s;
-      -ms-transition:     0.2s;
-      -o-transition:      0.2s;
+      @include transition(0.2s);
     }
 
     &:last-child {
@@ -90,15 +57,25 @@
     }
   }
 
-  &:before {
-    content: "";
-    border-left: 1px solid #ffaa9f;
-    border-right: 1px solid #ffaa9f;
-    width: 2px;
+  &:before, &:after
+  {
     position: absolute;
-    height: 100%;
-    left: 25px;
+    width: 40%;
+    height: 10px;
+    content: ' ';
+    left: 12px;
+    bottom: 12px;
+    background: transparent;
+    @include transform(skew(-5deg) rotate(-5deg));  
+    @include box-shadow(0 6px 12px rgba(0, 0, 0, 0.3));  
+    z-index: -1;
+  }
+  
+  &:after
+  {
+    left: auto;
+    right: 12px;
+    @include transform(skew(5deg) rotate(5deg));  
   }
 
 }
-

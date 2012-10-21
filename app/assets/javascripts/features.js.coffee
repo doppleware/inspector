@@ -15,16 +15,17 @@ inspector.features.initialize = ->
 	$("#features-search-form").submit( (e) -> 		
 		$('.hero-pic').hide())
 
-
-$(window).bind("popstate", ->		
-	query = $.url().param('query')	
-	unless query? 
-		query = ""
+inspector.features.handlePopState = ->
+	query = inspector.getParamFromUrl('query')		
 	$("#features-search-field").val(query)
-	if (query.length!=0)				
+	if query? and query.length!=0
 		$("#features-search-form").submit()
 	else
-		$('#feature_results').html(""))
+		$('#feature_results').html("")
+
+inspector.getParamFromUrl= (param) -> $.url().param('query')
+
+$(window).bind("popstate", inspector.features.handlePopState)
 
 $ -> inspector.features.initialize()
   

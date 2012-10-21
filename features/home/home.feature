@@ -8,8 +8,15 @@ Scenario: The product logo should be visible when I visit the page
     Then I should see the product logo    
 
 @javascript
-Scenario: When I search the product logo disappears and I see search results instead
+Scenario: When I search, the product logo disappears and I see search results instead
     Given I am on the main page   
     And I search for something
     Then I should not see the product logo  
-    And I should see the search results area      
+    And I should see the search results area
+
+@javascript
+Scenario: When I search, I should see some search results matching my query
+    Given I am on the main page   
+    And I search for something
+    Then I should not see the product logo  
+    And I should see the search results area

@@ -9,6 +9,9 @@ gem 'pg'
 gem 'pg_search'
 gem 'acts-as-taggable-on'
 gem 'will_paginate'
+gem 'bourbon'
+gem 'jquery-rails'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -26,9 +29,6 @@ group :development, :test do
   gem "rspec-rails", "~> 2.0"
   gem "jasminerice"
 end
-
-
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
