@@ -7,38 +7,25 @@
 		</li>
 		<% @features.each do |feature| %>  
 		<li class="features-item">
-			<a class="feature-link" href="<%= feature_path(feature) %>"> 
+			<a class="feature-link" href="<%= feature_path(feature.id) %>"> 
 				<%= feature.name %>				
 			</a>
 			<ul class="top features">
+			<% feature.scenarios.each do |scenario| %>
 				<li>
-					<a class="scenario-link" href="<%= feature_path(feature) %>">  
-						<span class="highlight_yellow">Should lock all non-shared resources</span>
-					</a>
-				</li>	
-				<li> 
-					<a class="scenario-link" href="<%= feature_path(feature) %>"> 
-						Should not lock shared resources
-					</a> 
-				</li>
+					<a class="scenario-link" href="<%= scenario_path(scenario.id) %>"> 
+						<% if scenario.highlight %>
+							<%= raw scenario.highlight.format { |fragment| content_tag(:span, fragment, :class => 
+								"highlight_yellow") } %>
+						<% else %>
+							<%= scenario.name %>
+						<% end %>
+					</a>  					
+				</li>				
+			<% end %>
 			</ul>
-			<p class="feature-tags"> <%= raw feature.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
-		</li>
-		<li class="features-item">
-			<a class="feature-link" href="<%= feature_path(feature) %>"> 
-				<%= feature.name %>				
-			</a>
-			<ul class="top features">
-				<li> 
-					<span class="highlight_yellow">just how important this is</span>
-				</li>
-				<li> 
-					<a class="scenario-link" href="<%= feature_path(feature) %>"> 
-						Test 2
-					</a> 
-				</li>
-			</ul>
-			<p class="feature-tags"> <%= raw feature.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %> </p>
+
+			
 		</li>
 		<% end %>
 	</ul>	

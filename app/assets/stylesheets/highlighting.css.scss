@@ -8,13 +8,6 @@
   @include box-shadow(0px 4px 6px #333);
 } 
 
-.highlight {
-  position: relative;
-  padding-left: -5px;
-  overflow: visible;
-  font-weight: bold;
-  height: 100%;
-}
 
 .highlight_yellow {
   position: relative;
@@ -26,6 +19,7 @@
   background-size: 110%;
   background-position: 0px 0px;
   overflow: visible;
+  vertical-align: bottom;
 }
 
 .underline_red {

@@ -1,12 +1,43 @@
 class FeaturesController < ApplicationController
+  
+  def create_search_results (raw_results)
+    
+    results = Array.new 
+    raw_results.each do | feature_scenarios |
+      feature_name = feature_scenarios.hits.first.stored(:feature_name).first
+      id =feature_scenarios.value
+      feature = FeatureSearchResult.new(:name => feature_name, :id => id)
+      feature_scenarios.hits.each do | feature_scenario |
+
+        name = feature_scenario.stored(:name).first        
+        highlights = feature_scenario.highlights(:name)
+        highlight = highlights.first if highlights.any?        
+        feature.scenarios << ScenarioSearchResult.new(:name => name, 
+          :id => feature_scenario.primary_key, :highlight => highlight)
+      end 
+      results<<feature
+    end
+
+    return results
+  
+  end
+
   # GET /features
   # GET /features.json
   def index
 
     unless params[:query].to_s.empty?
-      search = Feature.search { fulltext params[:query] }
-      @features = search.results
-    end 
+      search = Scenario.search do
+        group(:feature_id_str) do
+          limit 5
+        end
+        fulltext params[:query].to_s do
+          highlight :name
+        end         
+      end 
+      @features = create_search_results(search.groups[0].groups)
+    end
+    
 
     respond_to do |format|
       format.html # index.html.erb

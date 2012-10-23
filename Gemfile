@@ -6,8 +6,8 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'sunspot_rails'
-gem 'sunspot_solr'
+gem 'sunspot_rails', "~> 2.0.0.pre.120925"
+gem "sunspot_solr", "~> 2.0.0.pre.120925"
 gem 'acts-as-taggable-on'
 gem 'will_paginate'
 gem 'bourbon'
