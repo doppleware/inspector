@@ -5,8 +5,12 @@
 inspector.features = new Object();
 
 inspector.features.initialize = -> 	
-	$("#features-search-field").keyup( -> 		
-		$("#features-search-form").submit())
+	$('#features-search-field').livesearch({
+		searchCallback: -> $("#features-search-form").submit(),
+		queryDelay: 250,
+		innerText: "Search",
+		minimumSearchLength: 3
+	});
 
 	$("#features-search-field").blur( -> 
   		history.pushState(null, document.title + $("#features-search-field").val(), 

@@ -1,17 +1,12 @@
 class Feature < ActiveRecord::Base
   attr_accessible :description, :name, :tag_list
+  has_many :scenarios, :inverse_of => :feature
   acts_as_taggable
 
-  include PgSearch  
-
-  pg_search_scope :search, against: [:name, :description],
-   using: {tsearch: {dictionary: "english"}}
-
-  def self.text_search(query)
-    if query.present?
-      search(query)
-    else
-      scoped
+  searchable do
+    text :name, :description
+    text :scenarios do
+      scenarios.map { |scenario| scenario.name }
     end
   end
   

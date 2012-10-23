@@ -4,7 +4,8 @@ class FeaturesController < ApplicationController
   def index
 
     unless params[:query].to_s.empty?
-      @features = Feature.text_search(params[:query])
+      search = Feature.search { fulltext params[:query] }
+      @features = search.results
     end 
 
     respond_to do |format|
