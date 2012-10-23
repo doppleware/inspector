@@ -26,6 +26,7 @@
   float: right;
 } 
 
+
 .feature-list {
   color: #555;
   font-size: 22px;
@@ -38,7 +39,7 @@
   background-color: #fff;  
   @include box-shadow(0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1));
 
-  li {
+  li {    
     list-style: none;
     border-bottom: 1px dotted #ccc;
     overflow: hidden;
