@@ -1,0 +1,14 @@
+<ul class="feature-list">
+	<li class="features-header">
+		<h3><span class="underline_red"> <%= @feature.name %> </span></h3>
+	</li>
+	<% @feature.scenarios.each do |scenario| %>  
+	<li class="features-item">
+		<a class="feature-link" href="<%= scenario_path(scenario.id) %>"> 
+			<%= scenario.name %>								
+		</a>
+		<%= scenario.description %>
+	</li>
+	<% end %>
+</ul>
+

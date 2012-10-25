@@ -19,11 +19,18 @@ inspector.features.initialize = ->
 	$("#features-search-form").submit( (e) -> 		
 		$('.hero-pic').hide())
 
+	
+
+inspector.features.hookup = -> 
+	$(".feature-link").click( (e) -> 		
+		$.getScript($(this).attr("href"))
+		e.preventDefault())
+
 inspector.features.handlePopState = ->
 	query = inspector.getParamFromUrl('query')		
 	$("#features-search-field").val(query)
 	if query? and query.length!=0
-		$("#features-search-form").submit()
+		$.getScript(location.href);
 	else
 		$('#feature_results').html("")
 

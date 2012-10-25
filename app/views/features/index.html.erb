@@ -1,29 +1,12 @@
-<%= render "navigation_bar" %>
+<% content_for :offbar do %>
+<div class="post-it">
+	<emp> Recent feature </emp>
+	<ul>
+		<li> Topology activation as non admin </li>
+	</ul>
+</div>
+<% end %>	
 
-<div class="container">
-	<% unless @features %>
-	<div class="row hero-pic" id="investigator-hero-unit">		
-		<img src="assets/Inspector-big.png"></a>	
-		<h2> A BDD mystery </h2>	
-		<img src="assets/noir.jpg"></a>	
-	</div>
-	<% end %>
-
-	<div class="row">
-		<div class="span2">
-		</div>    
-		<div class="span8">			
-			<div id="feature_results">
-				<%= render "feature_list" %>
-			</div>
-		</div> 
-		<div class="span2">			
-		<div class="post-it">
-				<emp> Recent feature </emp>
-				<ul>
-					<li> Topology activation as non admin </li>
-				</ul>
-			</div>
-		</div> 
-	</div>
+<div id="feature_results">
+	
 </div>

@@ -1,10 +1,10 @@
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
-		<div class="container">				   				
-			<a class="brand" href=""><img src="assets/Inspector.png"></a>											
+		<div class="container">
+			<a class="brand" href=<%=root_url %>"><%= image_tag "Inspector.png" %></a>												
 			<%= form_tag features_path, :class => "navbar-form", :id => "features-search-form", 
 			remote: true, method: :get do %>    
-				<img class="prepender pull-left" src="assets/investigate.png"></a>
+				<%= image_tag "investigate.png", :class => "prepender pull-left" %>
 				<div class="input-append">
 					<%= text_field_tag :query, params[:query], :id => 'features-search-field',:class =>  'input-xxlarge',  :placeholder => 'Examine features and scenarios for clues' %>
 					<span class="add-on">

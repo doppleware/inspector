@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>InSPECtor</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+	<title>InSPECtor</title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
 </head>
 <body>	
- <%= yield %>
+	<%= render "navigation_bar" %>
+	<div class="container">
+		<div class="row">					
+			<div class="span2">
+				<%= yield :sidebar %>
+			</div>
+			<div class="span8">			
+				<%= yield %>
+			</div>
+			<div class="span2">
+				<%= yield :offbar %>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
