@@ -1,0 +1,2243 @@
+  [1m[36m (3.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:39:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:40:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 139ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:45:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:50:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:53:35 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 154ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:54:16 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 132ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:56:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 133ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 10:58:43 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 132ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 11:02:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 146ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (15.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36m (10.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 14:27:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 14:27:31 +0200
+Compiled jquery.js  (11ms)  (pid 7264)
+Compiled jquery_ujs.js  (0ms)  (pid 7264)
+Compiled bootstrap_additions.js  (5324ms)  (pid 7264)
+Compiled features.js  (539ms)  (pid 7264)
+Compiled home.js  (553ms)  (pid 7264)
+Compiled application.js  (6579ms)  (pid 7264)
+Served asset /application.js - 200 OK (6619ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 14:27:38 +0200
+Compiled application.css  (1575ms)  (pid 7264)
+Served asset /application.css - 200 OK (1653ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 14:27:40 +0200
+Served asset /Inspector.png - 200 OK (16ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 14:27:40 +0200
+Served asset /investigate.png - 200 OK (17ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 14:27:40 +0200
+Served asset /Inspector-big.png - 200 OK (15ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 14:27:40 +0200
+Served asset /noir.jpg - 200 OK (16ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 14:54:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 14:54:44 +0200
+Served asset /application.css - 200 OK (35ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 14:54:45 +0200
+Compiled bootstrap_additions.js  (551ms)  (pid 8844)
+Compiled application.js  (3ms)  (pid 8844)
+Served asset /application.js - 200 OK (637ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 14:54:45 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 14:54:45 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 14:54:45 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 14:54:45 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (14.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 113ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Served asset /application.css - 200 OK (33ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Served asset /application.js - 200 OK (13ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 14:56:51 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 14:56:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (5.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:20:25 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Served asset /application.js - 200 OK (33ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (7.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:20:26 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:29:03 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (7.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:29:04 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (11.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36m (6.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36m (7.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Served asset /noir.jpg - 200 OK (5ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:32:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (21.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (11.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:41:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (12.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (7.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:43:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (13.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Served asset /application.css - 200 OK (33ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:44:52 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (10.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:48:57 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+  [1m[36m (11.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:48:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (15.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:49:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 130ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (31.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 15:49:49 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36m (18.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/index.js.erb (78.0ms)
+Completed 500 Internal Server Error in 287ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:51:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 129ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:51:09 +0200
+Served asset /application.js - 200 OK (13ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:51:09 +0200
+Served asset /application.css - 200 OK (44ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:51:10 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:51:10 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:51:10 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:51:10 +0200
+Served asset /investigate.png - 200 OK (0ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:51:10 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 15:51:10 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (25.0ms)
+Completed 200 OK in 223ms (Views: 31.0ms | ActiveRecord: 2.0ms)
+  [1m[35m (25.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:56:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:56:01 +0200
+Served asset /application.js - 200 OK (27ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:56:01 +0200
+Served asset /application.css - 200 OK (46ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:56:02 +0200
+Served asset /investigate.png - 200 OK (3ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:56:02 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:56:02 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:56:02 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (11.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:56:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 15:56:02 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/index.js.erb (62.0ms)
+Completed 500 Internal Server Error in 323ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:57:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 15:57:55 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (25.0ms)
+Completed 200 OK in 232ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (28.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:01:14 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 116ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:01:15 +0200
+Compiled jquery.js  (12ms)  (pid 9856)
+Compiled jquery_ujs.js  (0ms)  (pid 9856)
+Compiled bootstrap_additions.js  (639ms)  (pid 9856)
+Compiled features.js  (535ms)  (pid 9856)
+Compiled home.js  (565ms)  (pid 9856)
+Compiled application.js  (1860ms)  (pid 9856)
+Served asset /application.js - 200 OK (1898ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:01:17 +0200
+Compiled application.css  (1367ms)  (pid 9856)
+Served asset /application.css - 200 OK (1411ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:01:18 +0200
+Served asset /investigate.png - 200 OK (18ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:01:18 +0200
+Served asset /Inspector.png - 200 OK (14ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:01:18 +0200
+Served asset /Inspector-big.png - 200 OK (13ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:01:18 +0200
+Served asset /noir.jpg - 200 OK (15ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:01:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:01:19 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (28.0ms)
+Completed 200 OK in 220ms (Views: 34.0ms | ActiveRecord: 2.0ms)
+  [1m[35m (237.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:02:19 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (12.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:02:20 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:02:20 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 215ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (15.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:03:30 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Served asset /application.css - 200 OK (36ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (203.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:03:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:03:32 +0200
+Processing by FeaturesController#index as JS
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+Completed 500 Internal Server Error in 219ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:05:38 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (557.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:05:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:05:39 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36m (6.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (26.0ms)
+Completed 200 OK in 229ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 115ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Served asset /application.css - 200 OK (35ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:06:23 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (14.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:06:24 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:06:24 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36m (5.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (26.0ms)
+Completed 200 OK in 222ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 140ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Served asset /Inspector.png - 200 OK (5ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Served asset /investigate.png - 200 OK (3ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:08:08 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:08:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:08:09 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (59.0ms)
+Completed 200 OK in 317ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:12:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 113ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 16:12:37 +0200
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 16:12:38 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36m (12.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 230ms (Views: 33.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:42:06 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 123ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Served asset /application.js - 200 OK (30ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Served asset /application.css - 200 OK (45ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Served asset /noir.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Served asset /Inspector-big.png - 200 OK (3ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 17:42:07 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (37.0ms)
+Completed 200 OK in 239ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (11.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 115ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Served asset /application.js - 200 OK (20ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Served asset /application.css - 200 OK (41ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Served asset /investigate.png - 200 OK (3ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+  [1m[36m (12.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 21:14:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 21:14:19 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (28.0ms)
+Completed 200 OK in 223ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (13.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Served asset /application.css - 200 OK (40ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 21:58:21 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (10.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 21:58:22 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 21:58:22 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (28.0ms)
+Completed 200 OK in 267ms (Views: 33.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (13.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Served asset /investigate.png - 200 OK (6ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:00:49 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:00:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:00:50 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (28.0ms)
+Completed 200 OK in 339ms (Views: 34.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (8.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (10.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:03:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:03:18 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (29.0ms)
+Completed 200 OK in 261ms (Views: 36.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (13.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Served asset /application.css - 200 OK (33ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:09:46 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (25.0ms)
+Completed 200 OK in 428ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (12.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Served asset /application.css - 200 OK (35ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Served asset /Inspector-big.png - 200 OK (3ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:11:29 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:11:30 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:11:30 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 245ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (14.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:13:43 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:13:44 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36m (5.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/index.js.erb (87.0ms)
+Completed   in 292ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 116ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Served asset /application.css - 200 OK (21ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Served asset /application.js - 200 OK (14ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Served asset /Inspector-big.png - 200 OK (3ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:14:27 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:14:28 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 222ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (11.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:17:13 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (6.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:17:14 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:17:14 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 212ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (20.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:18:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 115ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Served asset /application.css - 200 OK (35ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Served asset /Inspector.png - 200 OK (3ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Served asset /investigate.png - 200 OK (2ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:18:33 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 226ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (15.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Served asset /application.css - 200 OK (35ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Served asset /investigate.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Served asset /Inspector.png - 200 OK (3ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:21:54 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (7.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:21:55 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:21:55 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (26.0ms)
+Completed 200 OK in 205ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (13.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (12.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:28:39 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 339ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (20.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:29:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:29:33 +0200
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:29:33 +0200
+Served asset /application.css - 200 OK (35ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:29:34 +0200
+Served asset /investigate.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:29:34 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:29:34 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:29:34 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (92.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:29:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:29:34 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (25.0ms)
+Completed 200 OK in 208ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (9.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Served asset /application.css - 200 OK (36ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Served asset /Inspector.png - 200 OK (0ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:30:32 +0200
+Served asset /investigate.png - 200 OK (1ms)
+  [1m[36m (10.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:30:33 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:30:33 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (25.0ms)
+Completed 200 OK in 294ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (8.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Served asset /application.css - 200 OK (38ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Served asset /investigate.png - 200 OK (3ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Served asset /noir.jpg - 200 OK (0ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:31:49 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (27.0ms)
+Completed 200 OK in 265ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (8.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:35:59 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Served asset /Inspector-big.png - 200 OK (0ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+  [1m[36m (8.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:36:00 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (25.0ms)
+Completed 200 OK in 233ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (13.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:36:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Served asset /Inspector.png - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Served asset /Inspector-big.png - 200 OK (1ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Served asset /noir.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Served asset /investigate.png - 200 OK (1ms)
+  [1m[36m (9.0ms)[0m  [1mDELETE FROM "features";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'features';
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:36:40 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (26.0ms)
+Completed 200 OK in 298ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (12.0ms)[0m  DELETE FROM "features";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:40:51 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 134ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 22:40:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-11 22:40:54 +0200
+Served asset /application.css - 200 OK (34ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-11 22:40:54 +0200
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-11 22:40:55 +0200
+Served asset /investigate.png - 200 OK (0ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-11 22:40:55 +0200
+Served asset /Inspector.png - 200 OK (1ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-11 22:40:55 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-11 22:40:55 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-11 22:40:55 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".* FROM "features" [0m
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.js.erb (26.0ms)
+Completed 200 OK in 227ms (Views: 31.0ms | ActiveRecord: 19.0ms)
+  [1m[35m (7.0ms)[0m  DELETE FROM "features";
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'features';[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-14 22:08:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_navigation_bar.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 149ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-14 22:08:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_navigation_bar.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-14 22:08:57 +0200
+Compiled application.css  (2071ms)  (pid 5624)
+Served asset /application.css - 200 OK (2154ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-14 22:08:59 +0200
+Compiled jquery.js  (12ms)  (pid 5624)
+Compiled jquery_ujs.js  (1ms)  (pid 5624)
+Compiled bootstrap_additions.js  (737ms)  (pid 5624)
+Compiled features.js  (666ms)  (pid 5624)
+Compiled home.js  (656ms)  (pid 5624)
+Compiled twitter/bootstrap/transition.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/alert.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/button.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/carousel.js  (38ms)  (pid 5624)
+Compiled twitter/bootstrap/collapse.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/dropdown.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/modal.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/tooltip.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/popover.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/scrollspy.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/tab.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/typeahead.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap/affix.js  (0ms)  (pid 5624)
+Compiled twitter/bootstrap.js  (304ms)  (pid 5624)
+Compiled application.js  (2491ms)  (pid 5624)
+Served asset /application.js - 200 OK (2567ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-14 22:09:02 +0200
+Served asset /investigate.png - 200 OK (32ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-14 22:09:02 +0200
+Served asset /Inspector.png - 200 OK (27ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-14 22:09:02 +0200
+Served asset /noir.jpg - 200 OK (20ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-14 22:09:02 +0200
+Served asset /Inspector-big.png - 200 OK (23ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-14 22:09:02 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (3.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('simple', coalesce("features"."name"::text, '')) || to_tsvector('simple', coalesce("features"."description"::text, ''))), (to_tsquery('simple', ''' ' || 'blah' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('simple', coalesce("features"."name"::text, '')) || to_tsvector('simple', coalesce("features"."description"::text, ''))) @@ (to_tsquery('simple', ''' ' || 'blah' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (148.0ms)
+  Rendered features/index.js.erb (151.0ms)
+Completed 200 OK in 200ms (Views: 156.0ms | ActiveRecord: 42.0ms)
+  [1m[35m (0.0ms)[0m  ALTER TABLE "features" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.0ms)[0m  [1mselect current_database()[0m
+  [1m[35m (2.0ms)[0m  select table_name from information_schema.views where table_schema = 'inspector_test'
+  [1m[36m (13.0ms)[0m  [1mTRUNCATE TABLE "features" CASCADE;[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "features" ENABLE TRIGGER ALL
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-18 12:09:55 +0200
+Processing by FeaturesController#index as HTML
+  Rendered features/_navigation_bar.html.erb (1.0ms)
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 173ms (Views: 172.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-18 12:10:06 +0200
+Processing by FeaturesController#index as HTML
+  Rendered features/_navigation_bar.html.erb (1.0ms)
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-18 12:10:06 +0200
+Compiled application.css  (1862ms)  (pid 3048)
+Served asset /application.css - 200 OK (1997ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-18 12:10:08 +0200
+Compiled jquery.js  (13ms)  (pid 3048)
+Compiled jquery_ujs.js  (0ms)  (pid 3048)
+Compiled bootstrap_additions.js  (5316ms)  (pid 3048)
+Compiled features.js  (469ms)  (pid 3048)
+Compiled home.js  (459ms)  (pid 3048)
+Compiled twitter/bootstrap/transition.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/alert.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/button.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/carousel.js  (1ms)  (pid 3048)
+Compiled twitter/bootstrap/collapse.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/dropdown.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/modal.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/tooltip.js  (27ms)  (pid 3048)
+Compiled twitter/bootstrap/popover.js  (1ms)  (pid 3048)
+Compiled twitter/bootstrap/scrollspy.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/tab.js  (1ms)  (pid 3048)
+Compiled twitter/bootstrap/typeahead.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap/affix.js  (0ms)  (pid 3048)
+Compiled twitter/bootstrap.js  (319ms)  (pid 3048)
+Compiled purl.js  (0ms)  (pid 3048)
+Compiled application.js  (6780ms)  (pid 3048)
+Served asset /application.js - 200 OK (6873ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-18 12:10:15 +0200
+Served asset /investigate.png - 200 OK (16ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-18 12:10:15 +0200
+Served asset /Inspector.png - 200 OK (19ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-18 12:10:15 +0200
+Served asset /Inspector-big.png - 200 OK (42ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-18 12:10:15 +0200
+Served asset /noir.jpg - 200 OK (17ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=b" for 127.0.0.1 at 2012-10-18 12:10:16 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"b"}
+  [1m[36mFeature Load (32.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'b' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'b' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (130.0ms)
+  Rendered features/index.js.erb (134.0ms)
+Completed 200 OK in 151ms (Views: 118.0ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=bl" for 127.0.0.1 at 2012-10-18 12:10:16 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"bl"}
+  [1m[35mFeature Load (1.0ms)[0m  SELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'bl' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'bl' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (2.0ms)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=bla" for 127.0.0.1 at 2012-10-18 12:10:16 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"bla"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'bla' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'bla' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah" for 127.0.0.1 at 2012-10-18 12:10:16 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah"}
+  [1m[35mFeature Load (1.0ms)[0m  SELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'blah' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'blah' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-18 12:10:16 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (0.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'blah' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'blah' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (3.0ms)
+  Rendered features/index.js.erb (3.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/underline_red.png" for 127.0.0.1 at 2012-10-18 12:10:16 +0200
+Served asset /underline_red.png - 200 OK (16ms)
+  [1m[35m (1.0ms)[0m  ALTER TABLE "features" DISABLE TRIGGER ALL;ALTER TABLE "taggings" DISABLE TRIGGER ALL;ALTER TABLE "tags" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (1.0ms)[0m  [1mselect current_database()[0m
+  [1m[35m (2.0ms)[0m  select table_name from information_schema.views where table_schema = 'inspector_test'
+  [1m[36m (35.0ms)[0m  [1mTRUNCATE TABLE "features", "taggings", "tags" CASCADE;[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "features" ENABLE TRIGGER ALL;ALTER TABLE "taggings" ENABLE TRIGGER ALL;ALTER TABLE "tags" ENABLE TRIGGER ALL
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-18 12:11:31 +0200
+Processing by FeaturesController#index as HTML
+  Rendered features/_navigation_bar.html.erb (2.0ms)
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 147ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Processing by FeaturesController#index as HTML
+  Rendered features/_navigation_bar.html.erb (1.0ms)
+  Rendered features/_feature_list.html.erb (0.0ms)
+  Rendered features/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Served asset /application.css - 200 OK (47ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Served asset /application.js - 200 OK (31ms)
+
+
+Started GET "/assets/investigate.png" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Served asset /investigate.png - 200 OK (3ms)
+
+
+Started GET "/assets/Inspector.png" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Served asset /Inspector.png - 200 OK (4ms)
+
+
+Started GET "/assets/noir.jpg" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Served asset /noir.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/Inspector-big.png" for 127.0.0.1 at 2012-10-18 12:11:47 +0200
+Served asset /Inspector-big.png - 200 OK (2ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=bla" for 127.0.0.1 at 2012-10-18 12:11:48 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"bla"}
+  [1m[36mFeature Load (6.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'bla' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'bla' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (113.0ms)
+  Rendered features/index.js.erb (117.0ms)
+Completed 200 OK in 128ms (Views: 121.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=b" for 127.0.0.1 at 2012-10-18 12:11:48 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"b"}
+  [1m[35mFeature Load (3.0ms)[0m  SELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'b' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'b' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC
+  Rendered features/_feature_list.html.erb (3.0ms)
+  Rendered features/index.js.erb (3.0ms)
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah" for 127.0.0.1 at 2012-10-18 12:11:48 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'blah' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'blah' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.js.erb (2.0ms)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=bl" for 127.0.0.1 at 2012-10-18 12:11:48 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"bl"}
+  [1m[35mFeature Load (1.0ms)[0m  SELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'bl' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'bl' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC
+  Rendered features/_feature_list.html.erb (2.0ms)
+  Rendered features/index.js.erb (2.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/underline_red.png" for 127.0.0.1 at 2012-10-18 12:11:48 +0200
+Served asset /underline_red.png - 200 OK (0ms)
+
+
+Started GET "/features?utf8=%E2%9C%93&query=blah&commit=Examine" for 127.0.0.1 at 2012-10-18 12:11:49 +0200
+Processing by FeaturesController#index as JS
+  Parameters: {"utf8"=>"✓", "query"=>"blah", "commit"=>"Examine"}
+  [1m[36mFeature Load (1.0ms)[0m  [1mSELECT "features".*, (ts_rank((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))), (to_tsquery('english', ''' ' || 'blah' || ' ''')), 0)) AS pg_search_rank FROM "features" WHERE (((to_tsvector('english', coalesce("features"."name"::text, '')) || to_tsvector('english', coalesce("features"."description"::text, ''))) @@ (to_tsquery('english', ''' ' || 'blah' || ' ''')))) ORDER BY pg_search_rank DESC, "features"."id" ASC[0m
+  Rendered features/_feature_list.html.erb (4.0ms)
+  Rendered features/index.js.erb (8.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ALTER TABLE "features" DISABLE TRIGGER ALL;ALTER TABLE "taggings" DISABLE TRIGGER ALL;ALTER TABLE "tags" DISABLE TRIGGER ALL;ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL
+  [1m[36m (0.0ms)[0m  [1mselect current_database()[0m
+  [1m[35m (9.0ms)[0m  select table_name from information_schema.views where table_schema = 'inspector_test'
+  [1m[36m (32.0ms)[0m  [1mTRUNCATE TABLE "features", "taggings", "tags" CASCADE;[0m
+  [1m[35m (0.0ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "features" ENABLE TRIGGER ALL;ALTER TABLE "taggings" ENABLE TRIGGER ALL;ALTER TABLE "tags" ENABLE TRIGGER ALL
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-22 16:52:21 +0200
+Processing by FeaturesController#index as HTML
+  Rendered features/_navigation_bar.html.erb (2.0ms)
+  Rendered features/_feature_list.html.erb (1.0ms)
+  Rendered features/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 151ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
