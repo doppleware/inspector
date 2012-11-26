@@ -1,0 +1,11 @@
+<ul class="tag-filter-container">
+	<% @active_tags.each do |tag| %>
+	<li class="tag-filter-box"> 
+		<span>
+			<%=tag.name%>
+			<%= link_to tag.name, params.merge({:tags => @active_tags.map { |tag| tag.id  }
+			.reject { |tag_id| tag_id == tag.id }}), :class => "tag-filter-box-close" %>								
+		</span>
+	</li>
+	<% end %>
+</ul>			

@@ -1,0 +1,26 @@
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href=<%=root_url %>"><%= image_tag "Inspector.png" %></a>											
+			<%= form_tag features_path, :class => "navbar-form", :id => "features-search-form", 
+			 method: :get, url: features_path do %>    
+				<%= image_tag "investigate.png", :class => "search-icon prepender pull-left" %>
+				<div class="input-append">
+					<%= text_field_tag :query, params[:query], :id => 'features-search-field',:class =>  'input-xxlarge',  :placeholder => 'Examine features and scenarios for clues' %>
+					<span class="add-on">
+						<div class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">	
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu pull-left" role="menu" aria-labelledby="dLabel" >    			
+    						<li><a href="#"><i class="icon-ok"></i> Features</a></li>
+    						<li><a href="#"><i class="icon-ok"></i> Scenarios</a></li>
+  						</ul>				
+						</div>
+					</span>
+					<%= submit_tag "Examine", :class => 'btn btn-medium btn-primary' %>
+				 </div>				
+			<% end %>						
+		</div>
+	</div>
+</div>

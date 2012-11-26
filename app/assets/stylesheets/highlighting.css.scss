@@ -4,7 +4,7 @@
   font-family: 'Gloria Hallelujah', cursive; 
   font-size:15px; 
   color: #000; 
-  @include transform(rotate(7deg));
+  //@include transform(rotate(7deg));
   @include box-shadow(0px 4px 6px #333);
 } 
 

@@ -16,5 +16,8 @@
 //= require_tree .
 //= require twitter/bootstrap
 //= require purl
+//= require jquery.pjax
 //= require jquery.livesearch
+//= require morris
+//= require raphael
 var inspector = new Object();

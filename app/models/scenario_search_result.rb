@@ -3,12 +3,13 @@ class ScenarioSearchResult
   include ActiveModel::Conversion
   extend ActiveModel::Naming
   
-  attr_accessor :name, :id, :highlight
+  attr_accessor :name, :id, :highlight, :tag_ids
   
   def initialize(attributes = {})
     attributes.each do |name, value|
       send("#{name}=", value)
     end
+    @tag_ids = Array.new
   end
   
   def persisted?

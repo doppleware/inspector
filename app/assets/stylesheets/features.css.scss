@@ -1,12 +1,140 @@
 // Place all the styles related to the features controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul.breadcrumbs-list{
+  margin-left: 0;
+  margin-bottom: 10;
+  padding: 0;  
+  list-style: none;
+
+  background: #eee;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f5f5f5 #e5e5e5 #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+  overflow: hidden;
+  width: 100%;
+
+  a {
+
+  padding: .7em 1em .7em 2em;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  background-color: #ddd;
+  background-image: linear-gradient(to right, #f5f5f5, #ddd);  
+
+  }
+
+  li:first-child a{
+    padding-left: 1em;
+    border-radius: 5px 0 0 5px;
+  }
+
+  a:hover{
+    background: #fff;
+  }
+
+ a::after, a::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid;
+  right: -1em;
+}
+
+a::after{ 
+  z-index: 2;
+  border-left-color: #ddd;  
+}
+
+a::before{
+  border-left-color: #ccc;  
+  right: -1.1em;
+  z-index: 1; 
+}
+
+a:hover::after{
+  border-left-color: #fff;
+}
+
+.current,.current:hover{
+  font-weight: bold;
+  background: none;
+}
+
+ .current::after, .current::before{
+  content: normal;  
+}
+}
+
 .feature_results {
   background-color: #f5f5f5;  
   margin: 0 auto;
   padding: 0;
 }
 
+.tag-filter-box  {
+  @include border-radius(3px);
+  @include linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  @include box-shadow (0 0 2px #ffffff inset, 0 1px 0 rgba(0,0,0,0.05));
+  -moz-background-clip   : padding;
+  -webkit-background-clip: padding-box;
+  background-clip        : padding-box;
+  background-color: #e4e4e4;
+  color: #333;
+  border: 1px solid #aaaaaa;
+  line-height: 13px;
+  cursor: default;
+  display: inline;
+  position: relative;
+
+  &:hover {
+    background: #d4d4d4;
+  }
+}
+
+.tag-filter-box span {
+  position: relative; 
+  line-height: 13px;
+  padding: 3px 18px 3px 0px;
+  margin: 3px 0 3px 5px;  
+
+}
+.tag-filter-container {
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom:10px
+}
+
+.tag-filter-box span {
+  cursor: default;
+}
+
+.tag-filter-box-close {
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  width: 12px;
+  height: 13px;
+  font-size: 1px;
+  background: image-url('select2.png') right top no-repeat;
+  outline: none;
+
+  &:hover {
+    background-position: right -11px;
+  }
+}
 .feature-area {
 	position: relative;
 }
@@ -14,11 +142,15 @@
 .feature-link {
   text-decoration: none;
   display: block;
-  color: $black;
+  color: $black;  
 
   &:hover{
     text-decoration: none;
   }
+}
+
+.scenario-link {
+  word-wrap: break-word;
 }
 
 .feature-tags a {
@@ -29,14 +161,18 @@
 
 .feature-list {
   color: #555;
-  font-size: 22px;
+  font-size: 18px;
   padding: 0 !important;
   font-family: courier, monospace;
   border: 1px solid #dedede;
   position: relative;      
   padding: 50px;  
-  margin: 0 auto;  
+  //margin: 0 auto;
+  margin-left: 0;  
+  margin-bottom: 10;  
+  margin-top: 10;  
   background-color: #fff;  
+  word-wrap: break-word;
   @include box-shadow(0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1));
 
   .features-item:hover{
@@ -44,7 +180,85 @@
     @include transition(0.2s);
   }
 
-  li {    
+  .tags{
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:24px;
+    bottom:-12px;
+    list-style:none;
+  }
+
+  p.test {
+    word-wrap:break-word;    
+ 
+  }
+
+  li.scenario-text{
+    list-style: none;
+    padding: 10px 5px 10px 50px;
+  }
+  
+
+  .tags a{
+  margin-left:20px;
+  padding:0 10px 0 12px;
+  background:#0089e0;
+  color:#fff;
+  text-decoration:none;
+  -moz-border-radius-bottomright:4px;
+  -webkit-border-bottom-right-radius:4px; 
+  border-bottom-right-radius:4px;
+  -moz-border-radius-topright:4px;
+  -webkit-border-top-right-radius:4px;  
+  border-top-right-radius:4px;  
+  }
+  
+
+  .tags a:before{
+  content:"";
+  float:left;
+  position:absolute;
+  top:0;
+  left:-12px;
+  width:0;
+  height:0;
+  border-color:transparent #0089e0 transparent transparent;
+  border-style:solid;
+  border-width:12px 12px 12px 0;    
+  }
+
+  .tags a:after{
+  content:"";
+  position:absolute;
+  top:10px;
+  left:0;
+  float:left;
+  width:4px;
+  height:4px;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  background:#fff;
+  -moz-box-shadow:-1px -1px 2px #004977;
+  -webkit-box-shadow:-1px -1px 2px #004977;
+  box-shadow:-1px -1px 2px #004977;
+  }
+
+
+  .tags a:hover{background:#555;} 
+
+.tags a:hover:before{border-color:transparent #555 transparent transparent;}
+
+  .tags li, .tags a{
+    float:left;
+    height:24px;
+    line-height:24px;
+    position:relative;
+    font-size:11px;
+  }
+
+  .features-item, .scenario-item, .features-header {    
     list-style: none;
     border-bottom: 1px dotted #ccc;
     overflow: hidden;
@@ -52,7 +266,7 @@
     text-overflow: ellipsis;
     padding: 10px 5px 10px 50px;
     text-transform: capitalize;
-
+    position:relative;
     &:last-child {
       border-bottom: 0;
     }
@@ -67,7 +281,7 @@
     left: 12px;
     bottom: 12px;
     background: transparent;
-    @include transform(skew(-5deg) rotate(-5deg));  
+    @include transform(skew(-5deg) rotate(-3deg));  
     @include box-shadow(0 6px 12px rgba(0, 0, 0, 0.3));  
     z-index: -1;
   }
@@ -76,7 +290,7 @@
   {
     left: auto;
     right: 12px;
-    @include transform(skew(5deg) rotate(5deg));  
+    @include transform(skew(5deg) rotate(3deg));  
   }
 
 }

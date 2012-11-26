@@ -1,8 +1,15 @@
 Speckles::Application.routes.draw do
+  get "feature_update/create"
+
   resources :scenarios
 
+  resources :feature_updates
+  
   resources :features
+  
   get 'tags/:tag', to: 'features#index', as: :tag  
+
+  get 'tags', to: 'tags#index', as: :tags
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

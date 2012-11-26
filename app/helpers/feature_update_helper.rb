@@ -1,0 +1,2 @@
+module FeatureUpdateHelper
+end

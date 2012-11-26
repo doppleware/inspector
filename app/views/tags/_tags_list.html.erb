@@ -1,0 +1,9 @@
+<div class="post-it">		
+	<p> Topics: </p>
+	<div class="tag-topics">	
+		<% @tag_results.each do |tag| %>
+			<%= link_to tag.name, params.merge({:tags => active_tags.map { |tag| tag.id  } | [tag.id]}), 
+			:class => "topic-link" %>		
+		<% end %>
+	</div>
+</div>

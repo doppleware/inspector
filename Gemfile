@@ -12,6 +12,9 @@ gem 'acts-as-taggable-on'
 gem 'will_paginate'
 gem 'bourbon'
 gem 'jquery-rails'
+gem 'rack-pjax'
+gem 'friendly_id'
+gem "select2-rails"
 
 # Gems used only for assets and not required
 # in production environments by default.

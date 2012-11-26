@@ -1,5 +1,3 @@
-
-<% if @features %>
 <div class="feature-area">
 	<ul class="feature-list">
 		<li class="features-header">
@@ -7,12 +5,12 @@
 		</li>
 		<% @features.each do |feature| %>  
 		<li class="features-item">
-			<a class="feature-link" href="<%= feature_path(feature.id) %>"> 
+			<a class="feature-link" href="<%= feature_path(feature.slug) %>"> 
 				<%= feature.name %>				
 			</a>
 			<ul class="top features">
 			<% feature.scenarios.each do |scenario| %>
-				<li>
+				<li class="scenario-item">
 					<a class="scenario-link" href="<%= scenario_path(scenario.id) %>"> 
 						<% if scenario.highlight %>
 							<%= raw scenario.highlight.format { |fragment| content_tag(:span, fragment, :class => 
@@ -20,12 +18,16 @@
 						<% else %>
 							<%= scenario.name %>
 						<% end %>
-					</a>  					
-				</li>				
+					</a>							  					
+				</li>	
+			<% end %>
+			<% if feature.show_more %>
+				<li class="scenario-item show-more">							
+					<%= link_to "Show more...", :controller => "features", :action => "show", :id => feature.slug, :tags => params[:tags], :query => params[:query]  %>
+				</li>	
 			<% end %>
 			</ul>			
 		</li>
 		<% end %>
 	</ul>	
 </div>
-<% end %>

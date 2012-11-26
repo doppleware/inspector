@@ -2,13 +2,19 @@
 	<li class="features-header">
 		<h3><span class="underline_red"> <%= @feature.name %> </span></h3>
 	</li>
-	<% @feature.scenarios.each do |scenario| %>  
-	<li class="features-item">
-		<a class="feature-link" href="<%= scenario_path(scenario.id) %>"> 
-			<%= scenario.name %>								
-		</a>
-		<%= scenario.description %>
-	</li>
+	
+	<% @scenarios.each do |scenario| %>
+				<li class="scenario-item">
+					<a class="scenario-link" href="<%= scenario_path(scenario.id) %>"> 
+						<% if scenario.highlight %>
+							<%= raw scenario.highlight.format { |fragment| content_tag(:span, fragment, :class => 
+								"highlight_yellow") } %>
+						<% else %>
+							<%= scenario.name %>
+						<% end %>
+					</a>
+							  					
+				</li>	
 	<% end %>
 </ul>
 

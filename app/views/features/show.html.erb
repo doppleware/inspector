@@ -1,3 +1,18 @@
-<div class="feature-area">
-	<%= render "feature_scenarios" %>	
+<div data-pjax-container id="feature_results">
+	<div id="feature_results">
+	<div class="row-fluid">					
+		<div class="span2">
+			<%= render :partial => "tags/tags_list", :locals => { :active_tags => @active_tags } %>
+		</div>
+
+		<div class="span8">	
+			
+			<%= render 'active_tags' if @active_tags.any? %>
+			
+			<%= render "feature_scenarios" %>	
+			
+		</div>
+		<div class="span2">
+		</div>
+	</div>	
 </div>
